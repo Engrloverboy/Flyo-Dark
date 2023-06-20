@@ -4,23 +4,28 @@
   padding: 0;
   margin: 0;
   font-family: "Open Sans", sans-serif;
-  font-size: 14px;
-  background-color: rgb(27, 35, 48);
   list-style: none;
+}
+body {
   color: hsl(0, 0%, 100%);
+  background-color: rgb(27, 35, 48); 
 }
-.bk-img {
-  position: relative;
-}
-.bk-img img {
-  position: absolute;
+img{
   width: 100%;
-  top: 381px;
-  z-index: 1;
+}
+p {
+  margin: 20px 0;
+}
+
+.bk-img img {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
 }
 
 .container {
-  max-width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -43,40 +48,48 @@ nav ul li {
 }
 .illustration-intro {
   text-align: center;
+  max-width: 600px;
 }
-.illustration-intro img {
-  width: 50%;
-  margin: 50px 0;
+.margins{
+  padding: 30px 0;
 }
+.try_grag {
+ 
+  position: relative;
+}
+
 .illustration-intro h2 {
-  font-size: 60px;
+  font-size: 40px;
 }
-.illustration-intro h4 {
-  font-size: 36px;
-  font-weight: 100;
-  margin: 20px 0 30px;
-}
+
 .illustration-intro button {
-  padding: 20px 120px;
-  font-size: 23px;
+  padding: 15px 80px;
+  font-size: 18px;
   border-radius: 50px;
   background-color: rgb(85, 195, 211);
   border: 1px;
   margin-bottom: 50px;
 }
 
-.files {
+.color_spray {
   text-align: center;
+  background-color: rgba(23, 29, 38,0.6);
+}
+
+.color_spray img{
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
 }
 .first {
-  margin: 50px 0;
+  padding: 50px 0;
 }
 .first h3 {
   font-size: 34px;
   margin: 20px 0;
 }
 .first p {
-  font-size: 33px;
+  font-size: 14px;
 }
 .stay-production {
   text-align: center;
@@ -96,4 +109,29 @@ nav ul li {
 }
 .word-productive .fylo-works img {
   width: 35px;
+}
+
+
+@media (max-width: 700px) {
+  .logo img{
+    width: 150px;
+  }
+  nav ul {
+    width: 55%;
+  }
+  nav ul li{
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 470px) {
+ .logo img{
+    width: 100px;
+  }
+  nav ul {
+    width: 55%;
+  }
+  nav ul li{
+    font-size: 15px;
+  }
 }
