@@ -5,22 +5,17 @@
   margin: 0;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
-  background-color: rgb(27, 35, 48);
+
   list-style: none;
   color: hsl(0, 0%, 100%);
 }
-.bk-img {
-  position: relative;
-}
-.bk-img img {
-  position: absolute;
-  width: 100%;
-  top: 381px;
-  z-index: 1;
+body {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(219, 30%, 18%);
 }
 
 .container {
-  max-width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -41,18 +36,21 @@ nav ul li {
   display: flex;
   justify-content: space-between;
 }
+
+.warp-illustration {
+  position: relative;
+}
 .illustration-intro {
   text-align: center;
 }
 .illustration-intro img {
   width: 50%;
-  margin: 50px 0;
 }
 .illustration-intro h2 {
-  font-size: 60px;
+  font-size: 27px;
 }
 .illustration-intro h4 {
-  font-size: 36px;
+  font-size: 18px;
   font-weight: 100;
   margin: 20px 0 30px;
 }
@@ -64,30 +62,38 @@ nav ul li {
   border: 1px;
   margin-bottom: 50px;
 }
+.bk-img img {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+}
 
 .files {
   text-align: center;
+  background-color: rgb(24, 31, 43);
 }
 .first {
-  margin: 50px 0;
+  padding: 50px 0;
 }
 .first h3 {
-  font-size: 34px;
+  font-size: 16px;
   margin: 20px 0;
 }
 .first p {
-  font-size: 33px;
+  font-size: 14px;
 }
 .stay-production {
   text-align: center;
-  margin: 200px 0 70px;
+  padding: 100px 0 70px;
+  background-color: rgb(24, 31, 43);
 }
 .word-productive h3 {
-  font-size: 40px;
+  font-size: 18px;
   margin: 20px 0;
 }
 .word-productive p {
-  font-size: 34px;
+  font-size: 14px;
   margin: 20px 0;
 }
 .word-productive .fylo-works {
@@ -96,4 +102,13 @@ nav ul li {
 }
 .word-productive .fylo-works img {
   width: 35px;
+}
+
+@media (max-width: 700px) {
+  .logo img {
+    width: 150px;
+  }
+  nav ul {
+    width: 55%;
+  }
 }
