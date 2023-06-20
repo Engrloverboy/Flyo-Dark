@@ -5,9 +5,18 @@
   margin: 0;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
-  background-color: hsl(218, 28%, 13%);
+  background-color: rgb(27, 35, 48);
   list-style: none;
   color: hsl(0, 0%, 100%);
+}
+.bk-img {
+  position: relative;
+}
+.bk-img img {
+  position: absolute;
+  width: 100%;
+  top: 381px;
+  z-index: 1;
 }
 
 .container {
@@ -37,4 +46,54 @@ nav ul li {
 }
 .illustration-intro img {
   width: 50%;
+  margin: 50px 0;
+}
+.illustration-intro h2 {
+  font-size: 60px;
+}
+.illustration-intro h4 {
+  font-size: 36px;
+  font-weight: 100;
+  margin: 20px 0 30px;
+}
+.illustration-intro button {
+  padding: 20px 120px;
+  font-size: 23px;
+  border-radius: 50px;
+  background-color: rgb(85, 195, 211);
+  border: 1px;
+  margin-bottom: 50px;
+}
+
+.files {
+  text-align: center;
+}
+.first {
+  margin: 50px 0;
+}
+.first h3 {
+  font-size: 34px;
+  margin: 20px 0;
+}
+.first p {
+  font-size: 33px;
+}
+.stay-production {
+  text-align: center;
+  margin: 200px 0 70px;
+}
+.word-productive h3 {
+  font-size: 40px;
+  margin: 20px 0;
+}
+.word-productive p {
+  font-size: 34px;
+  margin: 20px 0;
+}
+.word-productive .fylo-works {
+  color: rgb(85, 195, 211);
+  border-bottom: 2px solid rgb(85, 195, 211);
+}
+.word-productive .fylo-works img {
+  width: 35px;
 }
