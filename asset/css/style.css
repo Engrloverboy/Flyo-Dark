@@ -220,9 +220,15 @@ nav ul li {
 
 @media (min-width: 900px) {
   .files {
-    max-width: 70%;
+    max-width: 800px;
     display: flex;
     justify-content: space-between;
+  }
+  .first {
+    margin-bottom: 55px;
+  }
+  .files .first {
+    padding: 0 20px;
   }
   .first p {
     font-size: 12px;
