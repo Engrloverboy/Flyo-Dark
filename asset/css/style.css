@@ -72,6 +72,7 @@ nav ul li {
   background-color: rgb(85, 195, 211);
   border: 1px;
   margin-bottom: 50px;
+  color: white;
 }
 .bk-img img {
   width: 100%;
@@ -224,6 +225,7 @@ footer {
 .footer-list ul li {
   display: flex;
   margin: 20px 0;
+  color: white;
 }
 .footer-list ul li span {
   margin-right: 10px;
