@@ -152,7 +152,6 @@ nav ul li {
 }
 .wrap-profile .profile-details {
   display: flex;
-  /* width: 80%; */
   align-items: center;
 }
 .wrap-profile .profile-details .profile-name {
@@ -176,14 +175,14 @@ nav ul li {
   margin: 10px 0;
 }
 .get-started {
-  /* width: 50%; */
   max-width: 700px;
-
   text-align: center;
   padding: 30px;
   border-radius: 10px;
   margin: 0 20px;
   background-color: rgb(27, 35, 48);
+  position: relative;
+  bottom: -139px;
 }
 .get-started h3 {
   font-size: 32px;
@@ -207,13 +206,46 @@ nav ul li {
   border: none;
   background-color: rgb(85, 196, 211);
   color: white;
-
   font-weight: 600;
 }
 
 .form-wrap {
   max-width: 300px;
   margin: 0 auto;
+}
+
+footer {
+  background-color: rgb(12, 21, 36);
+  padding-top: 100px;
+}
+.footer-logo {
+  width: 150px;
+  margin: 50px 0;
+}
+.footer-list ul li {
+  display: flex;
+  margin: 20px 0;
+}
+.footer-list ul li span {
+  margin-right: 10px;
+}
+.footer-about,
+.footer-contact {
+  margin: 30px 0;
+}
+.footer-about ul li,
+.footer-contact ul li {
+  margin: 10px 0;
+}
+.footer-img {
+  margin: 30px 0;
+  text-align: center;
+}
+.footer-img img {
+  width: 40px;
+  height: 40px;
+  margin: 7px;
+  color: white;
 }
 
 @media (max-width: 700px) {
@@ -267,19 +299,25 @@ nav ul li {
     display: flex;
     justify-content: space-between;
   }
+
+  .footer-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
 }
 
 @media (min-width: 900px) {
   .files {
-    max-width: 70%;
+    max-width: 800px;
     display: flex;
     justify-content: space-between;
   }
-
   .wrap-stay {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 900px;
   }
   .wrap-stay .stay-production div img {
     width: 450px;
@@ -310,6 +348,10 @@ nav ul li {
 @media (min-width: 1000px) {
   .wrap-profile {
     width: 90%;
+  }
+
+  .footer-list {
+    width: 30%;
   }
 }
 @media (min-width: 1024px) {
