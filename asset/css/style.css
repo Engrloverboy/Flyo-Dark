@@ -169,11 +169,11 @@ nav ul li {
 }
 .wrap-profile .profile-name h4 {
   font-size: 14px;
-  margin: 10px 0;
+  margin: 10px 0 0;
 }
 .wrap-profile .profile-name p {
   font-size: 12px;
-  margin: 10px 0;
+  margin: 2px 0;
 }
 .get-started {
   max-width: 700px;
